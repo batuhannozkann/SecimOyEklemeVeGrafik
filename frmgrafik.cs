@@ -60,7 +60,7 @@ namespace partisecim
         {
             double[] parti = new double[] { Aparti, Bparti, Cparti, Dparti, Eparti };
             double big = parti[0];
-            for(var i=0; i<parti.Length-1;i++)
+            for(var i=0; i<parti.Length;i++)
             {
                 if(parti[i]>big)
                 {
@@ -146,7 +146,7 @@ namespace partisecim
             }
             //editprogress();
             
-            OyPerc();
+            OyInt();
             ilcelbl.Text = frm2ilcesec.Text;
             ShowOy();
             baglanti.Close();
